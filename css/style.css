@@ -24,11 +24,18 @@ hr {
 
 .portfolio {
     background-color: rgb(230, 230, 230);
+    background-image: url(https://picsum.photos/id/1021/800/600);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
 .portfolio .thumbnail {
     opacity: 0;
     transition: 1s;
+    background-size: cover;
+    background-position: center;
 }
 
 .portfolio .thumbnail.muncul {
